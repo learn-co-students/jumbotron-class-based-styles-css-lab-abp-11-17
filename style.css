@@ -11,7 +11,7 @@ main {
 }
 
 header {
-  height: 100px;
+  height: 60px;
   border-bottom: 1px solid #ccc;
 }
 
@@ -49,4 +49,21 @@ h3#header {
   text-decoration: none;
   color: #868e96;
 }
-
+div.jumbotron {
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #E9ECEF;
+  padding: 10px; 
+  text-align: center; 
+}
+div.jumbtron h1 {
+  font-size: 60px;
+}
+div.jumbotron p{
+  font-size: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 40px; 
+}
